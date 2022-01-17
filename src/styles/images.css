@@ -1,0 +1,47 @@
+/**
+ * /* Add your profile image here
+ *
+ * @format
+ */
+
+.Photo {
+  background-image: url("./img/About.jpeg");
+}
+/* Projects Photo */
+.project1 {
+  background-image: url("./img/FeedtheFish.jpg");
+  cursor: pointer;
+}
+.project2 {
+  background-image: url("./img/Cats&Maths.jpg");
+  cursor: pointer;
+}
+.project3 {
+  background-image: url("./img/Hangman.png");
+  cursor: pointer;
+}
+.project4 {
+  background-image: url("./img/Rehanafoundation.png");
+  cursor: pointer;
+}
+.project5 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+five");
+  cursor: pointer;
+}
+.project6 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
+  cursor: pointer;
+}
+/* Miscelaneous Activities photo */
+.misc1 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+one");
+  cursor: pointer;
+}
+.misc2 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+two");
+  cursor: pointer;
+}
+.misc3 {
+  background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+three");
+  cursor: pointer;
+}
