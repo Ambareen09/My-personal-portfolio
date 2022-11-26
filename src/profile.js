@@ -22,11 +22,15 @@ const background = {
 const section2title = 'About Me'
 const about = {
   paragraph:
-    'I am a Pre-Final Undergrad majoring in Computer Science with a knack and lots of enthusiam for learning and exploring. I love to code & turn ideas into reality. I read books and watch movies in my free time.',
+    'Final Undergrad here, majoring in Computer Science with a knack and lots of enthusiam for learning and exploring. I love to code & turn ideas into reality. I read books and watch movies in my free time.',
 }
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
+  {
+    name: 'ReactJs',
+    faClass: 'fab fa-react',
+  },
   {
     name: 'HTML5',
     // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
@@ -68,12 +72,52 @@ const skillsBar = [
     // svg: '',
     faClass: 'fab fa-python',
   },
+  {
+    name: 'Django',
+    // svg: '',
+  },
+  {
+    name: 'Jinja',
+    // svg: '',
+  },
+  {
+    name: 'Tailwind',
+    // svg: '',
+  },
+  {
+    name: 'SQL',
+    // svg: '',
+  },
+  {
+    name: 'MongoDB',
+    // svg: '',
+  },
+  {
+    name: 'PostgreSQL',
+    // svg: '',
+  },
 ]
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
 const section3Title = 'Past Projects'
 const projects = [
+  {
+    // Add image in './styles/images.css' in #project1
+    id: 'project6',
+    name: 'NFT Card Battle',
+    skills: ['ReactJS, Solidity, Ether, Tailwind'],
+    url:
+      'https://github.com/Ambareen09/Nft-card-game',
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: 'project7',
+    name: 'Memories',
+    skills: ['MongoDB, Express, ReactJS, NodeJS, Google OAuth'],
+    url:
+      'https://main--create-memories-daily.netlify.app/',
+  },
   {
     // Add image in './styles/images.css' in #project1
     id: 'project1',
@@ -156,7 +200,7 @@ const social = {
   instagram: 'https://instagram.com/ambareen_azam?utm_medium=copy_link',
   linkedin: 'https://www.linkedin.com/in/ambareen-azam/',
   resume:
-    'https://drive.google.com/file/d/15zx0MAOYtvWlzH6x8ZHq36zFhpV52DNC/view?usp=sharing',
+    'https://drive.google.com/file/d/1fru-IJu0lCMTyVizMHFM3J7lf6N-Lk9M/view?usp=share_link',
 }
 // Dont change anything here
 export {

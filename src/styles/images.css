@@ -29,7 +29,11 @@
   cursor: pointer;
 }
 .project6 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
+  background-image: url("./img/nft1.png");
+  cursor: pointer;
+}
+.project7 {
+  background-image: url("./img/memory.png");
   cursor: pointer;
 }
 /* Miscelaneous Activities photo */
