@@ -5,7 +5,7 @@ const animation = {
   // make it false to switch off fade-up animation
   animate: true,
   // animation playing duration
-  duration: 750,
+  duration: 600,
   // if true, animation plays only once when element comes on screen
   once: false,
 }
@@ -15,7 +15,7 @@ const header = {
 }
 const background = {
   // Options: Snow or Particle
-  type: 'Snow',
+  type: 'Particle',
 }
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
